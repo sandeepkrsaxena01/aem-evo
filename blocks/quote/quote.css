@@ -1,30 +1,60 @@
 .block.quote {
-    background-color: #ccc;
-    padding: 0 0 24px;
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
-}
-
-.block.quote blockquote {
-    margin: 16px;
-    text-indent: 0;
-}
-
-.block.quote > div:last-child > div {
-    margin: 0 16px;
-    font-size: small;
-    font-style: italic;
-    position: relative;
-}
-
-.block.quote > div:last-child > div::after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    height: 5px;
-    width: 30px;
-    background-color: darkgray;
-}
+    gap: 24px;
+  }
+  
+  .block.quote .product-heading-row {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .block.quote .product-heading {
+    font-size: 2rem;
+    margin: 0;
+    color: #222;
+  }
+  
+  .block.quote .product-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  
+  .block.quote .product-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block.quote .product-card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .block.quote .product-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+  }
+  
+  .block.quote .product-card .description {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  
+  .block.quote .product-card .price {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #111;
+    margin-top: auto;
+  }
+  

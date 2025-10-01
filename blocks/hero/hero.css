@@ -9,11 +9,20 @@
   min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
+.hero h1, .hero h2{
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero h1 {
+  max-width: 1200px;
   color: var(--background-color);
+}
+
+.hero h1#edge-ecommerce{
+  font-size: 68px;
+  margin-top: 0;
+  text-transform: uppercase;
 }
 
 .hero picture {

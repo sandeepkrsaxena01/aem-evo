@@ -17,9 +17,6 @@
 
 .hero h1 {
   color: var(--background-color);
-}
-
-.hero h1#edge-ecommerce{
   font-size: 68px;
   margin-top: 0;
   text-transform: uppercase;

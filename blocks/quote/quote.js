@@ -9,7 +9,6 @@ export default async function decorate(block) {
     // Create heading (in a separate row)
     const headingRow = document.createElement('div');
     headingRow.className = 'product-heading-row';
-    headingRow.innerHTML = '<h2 class="product-heading">Featured Products</h2>';
     block.appendChild(headingRow);
 
     // Create the grid container

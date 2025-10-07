@@ -16,8 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "quote",
-      "trendingnow"
+      "quote"
     ]
   },
   {
@@ -39,6 +38,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "trendingnow",
+    "components": [
+      "card"
     ]
   }
 ]

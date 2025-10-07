@@ -233,5 +233,24 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "trendingnow",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "trendingnow",
+        "value": "",
+        "label": "Trendingnow",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
   }
 ]

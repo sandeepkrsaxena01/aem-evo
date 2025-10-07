@@ -6,24 +6,19 @@ export default async function decorate(block) {
     block.innerHTML = '';
     block.classList.add('product-container');
 
-    // Create heading (in a separate row)
-    const headingRow = document.createElement('div');
-    headingRow.className = 'product-heading-row';
-    block.appendChild(headingRow);
-
     // Create the grid container
     const grid = document.createElement('div');
-    grid.className = 'product-grid-wrapper';
+    grid.classList.add('product-grid-wrapper');
 
     products.forEach((product) => {
       const productCard = document.createElement('div');
       productCard.className = 'product-card';
 
       productCard.innerHTML = `
-          <img src="${product.thumbnail}" alt="${product.title}" />
-          <h3>${product.title}</h3>
-          <p class="description">${product.description}</p>
-          <p class="price">$${product.price}</p>
+          <img class="max-w-full h-auto object-contain mb-3" src="${product.thumbnail}" alt="${product.title}" />
+          <h3 class="mb-2 text-[1.1rem]">${product.title}</h3>
+          <p class="text-[0.9rem] text-[#333] mb-3 leading-[1.4]">${product.description}</p>
+          <p class="font-bold text-base text-[#111] mt-auto">$${product.price}</p>
         `;
 
       grid.appendChild(productCard);

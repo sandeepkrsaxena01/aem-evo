@@ -5,12 +5,12 @@
 @layer theme {
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, sfmono-regular, menlo, monaco, consolas, "Liberation Mono",
-      "Courier New", monospace;
+    "Courier New", monospace;
     --color-blue-500: oklch(62.3% 0.214 259.815deg);
     --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-3xl-line-height: calc(2.25 / 1.875);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -271,7 +271,7 @@
 
   .text-3xl {
     font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
+    line-height: var(--tw-leading, var(--text-3xl-line-height));
   }
 
   .shadow {

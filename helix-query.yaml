@@ -14,3 +14,16 @@ indices:
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
+  blog:
+    include:
+      - '/blog/**'
+    exclude:
+      - '/blog/**.json'
+    target: /blogs-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      description:
+        select: head > meta[name="description"]
+        value: attribute(el, "content")

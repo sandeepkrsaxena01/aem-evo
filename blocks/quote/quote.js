@@ -16,8 +16,8 @@ export default async function decorate(block) {
 
       productCard.innerHTML = `
           <img class="max-w-full h-auto object-contain mb-3" src="${product.thumbnail}" alt="${product.title}" />
-          <h3 class="mb-2 text-[1.1rem]">${product.title}</h3>
-          <p class="text-[0.9rem] text-[#333] mb-3 leading-[1.4]">${product.description}</p>
+          <h5 class="mb-2 text-[1.0rem]">${product.title}</h5>
+          <p class="text-[0.1rem] text-[#333] mb-3 leading-[1.4]">${product.description}</p>
           <p class="font-bold text-base text-[#111] mt-auto">$${product.price}</p>
         `;
 

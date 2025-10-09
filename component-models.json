@@ -17,6 +17,12 @@
       {
         "component": "text",
         "valueType": "string",
+        "name": "jcr:image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
         "name": "keywords",
         "multi": true,
         "label": "Keywords"

@@ -27,3 +27,6 @@ indices:
       description:
         select: head > meta[name="description"]
         value: attribute(el, "content")
+      image:
+        select: head > meta[property="og:image:secure_url"]
+        value: attribute(el, "content")  

@@ -24,6 +24,7 @@ export default async function decorate(block) {
   );
   const description = block.querySelector('p');
   const descriptionDiv = div();
+  const title = block.querySelector('h3');
   if (
     description
     && (!description.parentElement || !description.parentElement.classList.contains('button-container'))
@@ -33,6 +34,7 @@ export default async function decorate(block) {
     applyClasses(description, 'my-0 !text-lg font-semibold');
   }
   applyClasses(
+    title,
     `title mt-0 ${descriptionDiv.classList.contains('cta-desc') ? 'mb-4' : 'mb-0'} !font-bold !text-xl text-[#378189] break-words`,
   );
   block.querySelectorAll('div').forEach((parent) => {

@@ -198,32 +198,6 @@
     ]
   },
   {
-    "id": "cta-banner",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "cta-banner_title",
-        "value": "",
-        "label": "Title"
-      },
-      {
-        "component": "text",
-        "name": "cta-banner_titleType",
-        "hidden": true,
-        "label": "Title Type",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "cta_description",
-        "value": "",
-        "label": "Description",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
     "id": "fragment",
     "fields": [
       {

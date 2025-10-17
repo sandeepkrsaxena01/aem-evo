@@ -198,39 +198,6 @@
     ]
   },
   {
-    "id": "cta-banner",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "cta-banner_title",
-        "value": "",
-        "label": "Title"
-      }
-    ]
-  },
-  {
-    "id": "cta",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "cta_translation",
-        "label": "Translation",
-        "options": [
-          {
-            "name": "Translation",
-            "children": [
-              {
-                "name": "Do not translate",
-                "value": "GlobalLinkNoTx"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "fragment",
     "fields": [
       {

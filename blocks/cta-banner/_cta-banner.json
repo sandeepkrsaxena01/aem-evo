@@ -44,14 +44,6 @@
             "name": "ctaText",
             "label": "CTA Button Text",
             "valueType": "string"
-          },
-          {
-            "component": "select",
-            "name": "variant",
-            "label": "Button Variant",
-            "options": ["primary", "secondary"],
-            "valueType": "string",
-            "default": "primary"
           }
         ]
       }

@@ -28,12 +28,6 @@
             "valueType": "string"
           },
           {
-            "component": "richtext",
-            "name": "description",
-            "label": "Banner Description",
-            "valueType": "string"
-          },
-          {
             "component": "aem-content",
             "name": "ctaLink",
             "label": "CTA Link (URL)",

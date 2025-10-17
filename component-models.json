@@ -198,6 +198,46 @@
     ]
   },
   {
+    "id": "cta-banner",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Banner Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "ctaLink",
+        "label": "CTA Link (URL)",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "ctaText",
+        "label": "CTA Button Text",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Style Variant",
+        "options": [
+          "primary",
+          "secondary"
+        ],
+        "valueType": "string",
+        "default": "primary"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {

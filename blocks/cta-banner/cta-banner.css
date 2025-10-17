@@ -1,3 +1,46 @@
-div{
-  background: #fff;
+.action-banner {
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+  margin: 2rem auto;
+  max-width: 900px;
+  transition: all 0.3s ease;
+}
+
+.action-banner.primary {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+}
+
+.action-banner.secondary {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.action-banner-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.action-banner-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  background: white;
+  color: #0072ff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.action-banner.secondary .button {
+  color: #ff7e5f;
+}
+
+.button:hover {
+  opacity: 0.9;
 }

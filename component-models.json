@@ -209,7 +209,7 @@
       {
         "component": "richtext",
         "name": "description",
-        "label": "Description",
+        "label": "Banner Description",
         "valueType": "string"
       },
       {
@@ -227,7 +227,7 @@
       {
         "component": "select",
         "name": "variant",
-        "label": "Style Variant",
+        "label": "Button Variant",
         "options": [
           "primary",
           "secondary"
